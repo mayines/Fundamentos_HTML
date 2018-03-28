@@ -1,1 +1,3 @@
-cuento
+Este es un ejemplo de un cambio para ser almacenado como nueva versión en repositorio GIT
+
+Este es otro cambio
