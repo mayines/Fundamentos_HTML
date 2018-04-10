@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Mario Sánchez Castro">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <meta name="description" content="Curriculum Vitae">
+  <title></title>
+</head>
+<body>
+  <header>
+    <svg height="55" width="200">
+      <image xlink:href="C:\Next U\Desarrollo WEB\Imagenes\Logo_MSC.svg" x="1px" y="1px"></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+    <h2>Licenciado en Informática Administrativa - Hotelería</h2>
+    <h3>Mario Enrique Sánchez Castro<br>Fecha de nacimiento: Diciembre 16, 2018
+    </h3>
+  </header>
+  <ul>
+    <li><a href="index.html" target="_self">Inicio</a></li>
+    <li><a href="educacion.html" target="_self">Educación</a></li>
+    <li><a href="experiencia.html" target="_self">Experiencia</a></li>
+  </ul>
+  <h2>Educación</h2>
+
+  <table border="1" cellspacing="0" cellpadding="8">
+    <thead>
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>2001 - 2002</th>
+        <th>UVM</th>
+        <th>Estado de México</th>
+        <th>No</th>
+      </tr>
+      <tr>
+        <th>2002 - 2005</th>
+        <th>Universidad Contemporánea</th>
+        <th>Querétaro</th>
+        <th>Si</th>
+      </tr>
+      <tr>
+        <th>2005 - 2007</th>
+        <th>Posadas University</th>
+        <th>CDMX</th>
+        <th>Si</th>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+  <br><h3>Agregar estudios</h3>
+  </p>
+
+  <form autocomplete="on" name"Agregar_estudios">
+    <label for="año"></label>
+    <select name="año">
+      <option value="2001-2002">2001 - 2002</option>
+      <option value="2002-2005">2002 - 2005</option>
+      <option value="2005-2007">2005 - 2007</option>
+    </select>
+    <p>
+      <label for="institucion">Institución:</label>
+      <input type="text" name="institucion" placeholder="Ej. UVM" required>
+    </p>
+    <p>
+      <label for="lugar">Lugar:</label>
+      <textarea name="lugar" rows="2" cols="80" required></textarea>
+    </p>
+    <p>
+      <label for="fin">¿Culminó?:</label>
+      <input type="radio" name="fin">Si
+      <input type="radio" name="fin">No
+    </p>
+    <input type="submit" value="Enviar">
+  </form>
+  </body>
+
+  <footer>@ Derechos reservados
+    <ul>
+      <li><strong>E-mail: </strong><a href="mailto:mesc.mario@hotmail.com">mesc.mario@hotmail.com</a></li>
+      <li><strong>Teléfono:</strong> (55) 123 45 67</li>
+      <li><strong>Dirección:</strong> Pierre Lyonet, Peña de Bernal, Zacatecas, México</li>
+    </ul>
+  </footer>
+</html>
